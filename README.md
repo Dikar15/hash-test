@@ -1,14 +1,13 @@
 
-## **newtronic-test**  
-Aplikasi berbasis web yang memiliki 3 menu berdasarkan studikasus pada soal test (CRUD, Crawling, dan Websocket). Dikembangkan menggunakan **Laravel**, **JavaScript**, **WebSocket**, dan **Bootstrap**.
-![Dashboard](./public/images/Dashboard.png)
+## **Hashmicro-test**  
+Aplikasi berbasis web yang memiliki 2 menu berdasarkan studikasus pada soal test (CRUD dan Pilih kata). Dikembangkan menggunakan **Laravel**, **JavaScript**, dan **Bootstrap**.
+![Dashboard](./public/images/Dashboard2.png)
 
 ---
 
 ## **Fitur Utama:**
 - ⚡ **Menu Crud Transaksi dan Produk**
-- 🎮 **Crawling Data**
-- 🔑 **Live Score Menggunakan Websocket**
+- 🎮 **Pencocokan Huruf Berdasarkan Input**
 
 ---
 
@@ -17,13 +16,8 @@ Aplikasi berbasis web yang memiliki 3 menu berdasarkan studikasus pada soal test
 ![Halaman Utama Studikasus 1](./public/images/Crud1.png)
 ![Halaman Detail Transaksi](./public/images/Crud2.png)
 
-### **2. Menu Studikasus 2 (CRAWL):**
-![Halaman Utama Studikasus 2](./public/images/Crawling.png)
-
-### **3. Menu Studikasus 3 (WEBSOCKET):**
-![Halaman Utama Studikasus 3](./public/images/Websocket1.png)
-![Halaman Scoreboard](./public/images/Websocket2.png)
-![Halaman Operator](./public/images/Websocket3.png)
+### **2. Menu 2 (Pilih Kata):**
+![Halaman Utama Studikasus 2](./public/images/Case2.png)
 
 ---
 
@@ -31,16 +25,15 @@ Aplikasi berbasis web yang memiliki 3 menu berdasarkan studikasus pada soal test
 - **Laravel** - Framework PHP untuk backend.
 - **JavaScript (JQuery)** - Untuk interaksi front-end.
 - **Bootstrap** - Desain responsif dan modern.
-- **WebSocket (Pusher & Laravel Echo)** - Untuk real-time update.
-- **MySQL** - Database penyimpanan skor dan log aktivitas.
+- **MySQL** - Database penyimpanan data CRUD.
 
 ---
 
 ## **Instalasi:**
 1. **Clone Repository:**
    ```sh
-   git clone https://github.com/Dikar15/newtronic-test.git
-   cd newtronic-test
+   git clone https://github.com/Dikar15/hash-test.git
+   cd hash-test
    ```
 
 2. **Install Dependencies:**
@@ -76,20 +69,6 @@ Aplikasi berbasis web yang memiliki 3 menu berdasarkan studikasus pada soal test
    php artisan serve
    npm run dev
    ```
-
----
-
-## **Konfigurasi Pusher:**
-Tambahkan konfigurasi Pusher di `.env`:
-```
-BROADCAST_DRIVER=pusher
-PUSHER_APP_ID=1942567
-PUSHER_APP_KEY=95520a7c8473b7735ccc
-PUSHER_APP_SECRET=2e49dd1533287e07fec9
-PUSHER_APP_CLUSTER=mt1
-PUSHER_SCHEME=https
-PUSHER_APP_USE_TLS=true
-```
 
 ---
 
